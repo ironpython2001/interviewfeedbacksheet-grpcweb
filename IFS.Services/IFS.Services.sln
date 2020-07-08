@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFS.Services", "IFS.Services.csproj", "{22508200-8794-4596-930E-99F32704122D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.UI", "1.UI", "{A61BDDDB-9F19-4B30-9F64-18E207E38DEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{E115A4B1-640D-4D63-B3E1-5313211112B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFS.WebApp", "..\IFS.WebApp\IFS.WebApp.csproj", "{47580BB3-4831-4BFA-AF18-A87FF27F1300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22508200-8794-4596-930E-99F32704122D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22508200-8794-4596-930E-99F32704122D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22508200-8794-4596-930E-99F32704122D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22508200-8794-4596-930E-99F32704122D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47580BB3-4831-4BFA-AF18-A87FF27F1300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47580BB3-4831-4BFA-AF18-A87FF27F1300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47580BB3-4831-4BFA-AF18-A87FF27F1300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47580BB3-4831-4BFA-AF18-A87FF27F1300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22508200-8794-4596-930E-99F32704122D} = {E115A4B1-640D-4D63-B3E1-5313211112B0}
+		{47580BB3-4831-4BFA-AF18-A87FF27F1300} = {A61BDDDB-9F19-4B30-9F64-18E207E38DEC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFB1A298-A40D-4515-A811-0AE5F9288DC0}
+	EndGlobalSection
+EndGlobal
